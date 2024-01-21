@@ -1,0 +1,123 @@
+body {
+    background-color: rgba(47, 56, 123, 0.61);
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+  }
+  
+  .flexbox-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+  
+  }
+  
+  #logo {
+      padding-top: 50px;
+      padding-left: 50px;
+    padding-bottom: 30px;
+  justify-self: flex-start;
+    }
+  
+  
+  .navbar {
+    display: flex;
+    padding-bottom: 50px;
+    flex-direction: row;
+    font-family: Roboto;
+    color: #fdfcfc;
+    font-size: 30px;
+    text-decoration: none;
+    width:  50%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+    text-align: center; /* If you want the text to be centered */
+  }
+  
+  .navbar a {
+    font-family: Roboto;
+    align-self: flex-end;
+    color: #fdfcfc;
+    font-size: 30px;
+    text-decoration: none;
+    padding-left: 30px;
+    width:  50%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+    text-align: center; /* If you want the text to be centered */
+  }
+  .navbar a:hover {
+    color: #d1d1d1
+  }
+  
+  .navbar a.active {
+    color: #d1d1d1
+    
+  }
+  
+  
+    
+    .button {
+    border: none;
+    background-color: inherit;
+    color: white;
+    padding: 14px 28px;
+    font-size: 30px;
+    cursor: pointer;
+    font-family: Roboto;
+    word-wrap: normal;
+      text-decoration: none;
+  }
+  
+  .button:hover {color: #dcdbdb;}
+  
+  .about {
+    align-self: center;
+    color: #fdfcfc;
+    font-size: 30px;
+  }
+  
+  .Rectangle19 {
+      padding-top: 100px;
+      align-self: center;
+    }
+  
+  #editbutt {
+    background-color: #04AA6D; /* Green */
+    border: black;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+  
+  .current{
+    display: flex;
+    align-items: center;
+  }
+  
+  .head1 {
+  align-self: center;
+  color: #763d55;
+  font-size: 20px;
+  font-family: Roboto;
+  padding-top: 100px;
+  padding-left: 100px;
+  position: absolute;
+  top: 500px; left: 415px;
+    
+  }
+  
+  .head2 {
+    color: #763d55;
+    font-size: 20px;
+    font-family: Roboto;
+    padding-top: 100px;
+    padding-left: 100px;
+    position: absolute;
+    top: 560px; left: 435px
+  
+  }
